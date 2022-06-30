@@ -2,9 +2,9 @@
        PROGRAM-ID.  HELLO.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-       01  WS-GREETING PIC X(13) VALUE SPACES.
+       01  WS-GREETING PIC X(14) VALUE SPACES.
        PROCEDURE DIVISION.
 
        1000-HELLO.
-            MOVE 'Hello, World!' TO WS-GREETING
+            MOVE 'Goodbye, Mars!' TO WS-GREETING
            .    

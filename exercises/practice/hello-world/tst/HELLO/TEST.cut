@@ -1,0 +1,6 @@
+           TESTSUITE
+           "Testing hello-world program"
+
+           TESTCASE "When 1000-HELLO is caled it should write 'Hello, World!' to WS-GREETING"
+           PERFORM 1000-HELLO
+           EXPECT WS-GREETING TO BE "Hello, World!"
